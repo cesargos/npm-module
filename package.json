@@ -1,0 +1,23 @@
+{
+  "name": "modulo-npm",
+  "version": "1.0.0",
+  "description": "modulo global",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./lib/index.js",
+    "say-my-name": "echo \"Cesar\"",
+    "run-fuction": "./lib/index.js",
+    "say-my-name:full": "npm run say-my-name \"Goulart\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "criarArqTxt": "./bin/criarArquivoText.js",
+    "criarPasta": "./bin/criarPasta.js",
+    "gitMirror": "./bin/gitMirror.js"
+  },
+  "dependencies": {
+    "simple-git": "^2.20.1"
+  }
+}
